@@ -1,0 +1,57 @@
+.box1
+{
+    border: 1px solid black;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    border-radius: 20px;
+    background-color: rgb(7, 28, 66);
+
+}
+.box2
+{
+    border: 1px solid black;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    background-color:rgb(48, 133, 190);
+
+}
+.box2:hover
+{
+    color: white;
+    background-color: blue;
+}
+.box3
+{
+    border: 1px solid black;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    background:linear-gradient(red,blue)
+}
+.box4
+{
+    border: 1px solid black;
+    padding: 15px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    background:radial-gradient(rgb(200, 239, 25),rgb(201, 150, 20),rgb(216, 116, 16))
+}
+div
+{
+  
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
